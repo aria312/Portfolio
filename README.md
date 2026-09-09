@@ -21,7 +21,7 @@ CS 3365 Software Engineering.
 
 ## Live Website
 
-https://aria312.github.io/personal-portfolio/
+https://aria312.github.io/Portfolio/
 
 ## Viewing the Project
 
