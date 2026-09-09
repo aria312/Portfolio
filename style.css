@@ -29,3 +29,12 @@
 .project-card p {
     line-height: 1.5;
 }
+nav {
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+}
