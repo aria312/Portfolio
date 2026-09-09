@@ -38,3 +38,38 @@ nav a {
     margin: 0 15px;
     text-decoration: none;
 }
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.projects-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card,
+.project {
+    flex: 1 1 300px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .projects-container {
+        flex-direction: column;
+    }
+}
